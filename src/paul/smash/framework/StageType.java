@@ -1,0 +1,6 @@
+package paul.smash.framework;
+
+public enum StageType {
+BATTLEFIELD, GREEN_GREENS, FOUNTAIN_OF_DREAMS, KALOS_POKEMON_LEAGUE, FINAL_DESTINATION,
+POKEMON_STADIUM;
+}
