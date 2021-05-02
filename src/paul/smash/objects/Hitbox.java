@@ -58,8 +58,8 @@ public class Hitbox extends GameObject {
 
 	@Override
 	public void draw(Graphics g) {
-		g.setColor(Color.MAGENTA);
-		g.drawRect(x, y, getWidth(), getHeight());
+//		g.setColor(Color.MAGENTA);
+//		g.drawRect(x, y, getWidth(), getHeight());
 	}
 
 	@Override

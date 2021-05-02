@@ -76,10 +76,10 @@ public class Hud extends GameObject {
 	}
 
 	public void show(Graphics g) {
-		g.setColor(Color.MAGENTA);
-		g.drawRect(x, y, getWidth(), getHeight());
-		g.setColor(Color.GREEN);
-		g.drawRect(x, y + 48, getWidth(), getHeight() / 2 - 20);
+//		g.setColor(Color.MAGENTA);
+//		g.drawRect(x, y, getWidth(), getHeight());
+//		g.setColor(Color.GREEN);
+//		g.drawRect(x, y + 48, getWidth(), getHeight() / 2 - 20);
 
 		if (!hudShowing || player.stockLost()) {
 			g.drawImage(hudImage, x, y, getWidth(), getHeight(), null);
