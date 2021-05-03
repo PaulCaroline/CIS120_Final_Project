@@ -86,7 +86,7 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-*Download the this code to begin playing and/or contributing to the game*.
+*Download the code to begin playing and/or contributing to the game*.
 
 
 ### Installation
@@ -148,6 +148,8 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 - [ ] Consider adding settings to edit the number of stocks at the start of the game
 - [ ] Consider making menu tiles responsive to replace Game Setup dropdown
 - [ ] Complete Pikachu attack B effect and lightning bolt animation
+- [ ] Facilitate player deaths from falling, as well as fall recovery moves
+- [ ] Define limits for character jump heights and frequencies, and ensure a Platform GameObject from which to jump is available
 - [ ] Implement smash attack functionality and animations
 - [ ] Export finished product as a runnable .jar file
 
