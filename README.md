@@ -98,15 +98,33 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-### File Structure
+### File Structure  
 📦src  
- ┣ 📜GameTest.java   
- ┗ 📂paul  
-    ┗ 📂smash  
-      ┣ 📦display   
-      ┃  ┗ 📜**Game.java**  
-      ┣ 📦framework  
-      ┗ 📦objects  
+ ┣ 📂paul  
+ ┃ ┗ 📂smash  
+ ┃ ┃ ┣ 📂display  
+ ┃ ┃ ┃ ┣ 📜**Game.java**  
+ ┃ ┃ ┃ ┣ 📜GameMenu.java  
+ ┃ ┃ ┃ ┣ 📜Helper.java  
+ ┃ ┃ ┃ ┣ 📜Hud.java  
+ ┃ ┃ ┃ ┣ 📜ImageComponent.java  
+ ┃ ┃ ┃ ┣ 📜Menu.java  
+ ┃ ┃ ┃ ┣ 📜Stage.java  
+ ┃ ┃ ┃ ┗ 📜Window.java  
+ ┃ ┃ ┣ 📂framework  
+ ┃ ┃ ┃ ┣ 📜Animation.java  
+ ┃ ┃ ┃ ┣ 📜GameObject.java  
+ ┃ ┃ ┃ ┣ 📜KeyboardInput.java  
+ ┃ ┃ ┃ ┣ 📜ObjectAction.java  
+ ┃ ┃ ┃ ┣ 📜ObjectType.java  
+ ┃ ┃ ┃ ┣ 📜PlayerType.java  
+ ┃ ┃ ┃ ┣ 📜Spritesheet.java  
+ ┃ ┃ ┃ ┗ 📜StageType.java  
+ ┃ ┃ ┗ 📂objects  
+ ┃ ┃ ┃ ┣ 📜Hitbox.java  
+ ┃ ┃ ┃ ┣ 📜Platform.java  
+ ┃ ┃ ┃ ┗ 📜Player.java  
+ ┗ 📜GameTest.java  
 
 ### Running the Game
 1. Run the game in a desktop window by executing `Game.java` found in *src/paul/smash/display/*.  
@@ -125,6 +143,13 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 - [x] Construct classes for GameObjects, including players, hitboxes, ledge platforms and gameplay huds
 - [x] Make the hud responseive to display player damage ratings and remaining stocks (lives)
 - [x] Create custom spritesheet animations for character movements and attacks 
+- [x] Set up gameplay controls to respond to simultaneous keyboard inputs
+- [x] Make the game playable by facilitating player damage, removing lives, and restting player positions until 3 lives are lost
+- [ ] Consider adding settings to edit the number of stocks at the start of the game
+- [ ] Consider making menu tiles responsive to replace Game Setup dropdown
+- [ ] Complete Pikachu attack B effect and lightning bolt animation
+- [ ] Implement smash attack functionality and animations
+- [ ] Export finished product as a runnable .jar file
 
 See the [open issues](https://github.com/PaulCaroline/CIS120_Final_Project/issues) for a list of proposed features (and known issues).
 
