@@ -16,8 +16,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/PaulCaroline/CIS120_Final_Project">
+    <img src="images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Super Smash Bros CIS 120</h3>
@@ -25,10 +25,10 @@
   <p align="center">
     A university student's open-source rendition of a Nintendo fighting game🎮
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PaulCaroline/CIS120_Final_Project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/PaulCaroline/CIS120_Final_Project">View Demo</a>
     ·
     <a href="https://github.com/PaulCaroline/CIS120_Final_Project/issues">Report Bug</a>
     ·
@@ -86,33 +86,47 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+*Download the this code to begin playing and/or contributing to the game*.
 
 
 ### Installation
 
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/PaulCaroline/CIS120_Final_Project
    ```
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
+### File Structure
+📦src  
+ ┣ 📜GameTest.java   
+ ┗ 📂paul  
+    ┗ 📂smash  
+      ┣ 📦display   
+      ┃  ┗ 📜**Game.java**  
+      ┣ 📦framework  
+      ┗ 📦objects  
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Running the Game
+1. Run the game in a desktop window by executing `Game.java` found in *src/paul/smash/display/*.  
+2. Select two characters and a stage using the Game Setup dropdown from the top left of the game menu as shown below:  
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+[![Product Name Screen Shot][product-menu]](https://github.com/PaulCaroline/CIS120_Final_Project)
+
+### Playing the Game
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 - [x] Define physics properties & metrics for character performance
+- [x] Facilitate game window and animation parameters
+- [x] Construct classes for GameObjects, including players, hitboxes, ledge platforms and gameplay huds
+- [x] Make the hud responseive to display player damage ratings and remaining stocks (lives)
+- [x] Create custom spritesheet animations for character movements and attacks 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/PaulCaroline/CIS120_Final_Project/issues) for a list of proposed features (and known issues).
 
 
 
@@ -159,16 +173,9 @@ Project Link: [https://github.com/PaulCaroline/CIS120_Final_Project](https://git
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/PaulCaroline/CIS120_Final_Project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/PaulCaroline/CIS120_Final_Project/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/PaulCaroline/CIS120_Final_Project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/PaulCaroline/CIS120_Final_Project/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/PaulCaroline/CIS120_Final_Project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paul-caroline-336800142
 [product-screenshot]: images/screenshot.png
+[product-menu]: images/menu_screen.png
