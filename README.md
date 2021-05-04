@@ -144,7 +144,7 @@ Super Smash CIS 120 became a sort of rainy-day project for me during the summer 
 - [x] Make the hud responseive to display player damage ratings and remaining stocks (lives)
 - [x] Create custom spritesheet animations for character movements and attacks 
 - [x] Set up gameplay controls to respond to simultaneous keyboard inputs
-- [x] Make the game playable by facilitating player damage, removing lives, and restting player positions until 3 lives are lost
+- [x] Make the game playable by facilitating player damage, removing lives, and resetting player positions until 3 lives are lost
 - [ ] Consider adding settings to edit the number of stocks at the start of the game
 - [ ] Consider making menu tiles responsive to replace Game Setup dropdown
 - [ ] Complete Pikachu attack B effect and lightning bolt animation
