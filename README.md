@@ -192,6 +192,7 @@ Project Link: [https://github.com/PaulCaroline/CIS120_Final_Project](https://git
 * [Goldstud](https://www.spriters-resource.com/submitter/GoldStud/?source=genre) (Ganondorf sprite, *The Legend of Zelda: Twilight Princess*)
 * [SemiJuggalo](https://www.deviantart.com/semijuggalo) (Pikachu sprite, *Pokémon Gold and Silver*)
 * [Othniel Drew](https://github.com/othneildrew) (Readme Template)
+* [Cláudio Luiz Castro](https://unsplash.com/@claudiolcastro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Repo Social Media Thumbnail)
 
 
 
