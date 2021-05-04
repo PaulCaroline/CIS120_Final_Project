@@ -70,7 +70,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/PaulCaroline/CIS120_Final_Project)
 
-I submitted this game in the Spring of 2019 as a final project for the class CIS 120: Programming Languages & Techniques at the University of Pennsylvania. It's designed for two players, and features a selection of stages and characters that were among my favorites in <a href="https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate">Super Smash Bros Ultimate</a> for the Nitnendo Switch.
+I submitted this game in the Spring of 2019 as a final project for the class CIS 120: Programming Languages & Techniques at the University of Pennsylvania. It's designed for two players, and features a selection of stages and characters that were among my favorites in <a href="https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate">Super Smash Bros Ultimate</a> for the Nintendo Switch.
 
 From a design standpoint, the game aims to combine the sleek, modern landscapes of Smash Ultimate, with the charming aesthetics of 32-bit sprites as one might likely see in classic Gameboy games.
 
